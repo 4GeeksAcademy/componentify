@@ -55,10 +55,10 @@ const Download = () => {
 
                                 <div className={`c-alert c-alert-silver col-5 mb-3 ${copiedCDN ? "copied" : ""}`} role="alert" style={{ height: "3.5rem", width: "62rem", display: "flex", alignItems: "center" }}>
                                     <pre style={{ marginRight: "1rem" }} className="mb-0">
-                                        <code>{`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Componentify-23/Componentify@main/componentify.css">`}</code>
+                                        <code>{`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Componentify-23/Componentify/componentify-23.css">`}</code>
                                     </pre>
                                     <div className="ml-auto">
-                                        <CopyToClipboard text='<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Componentify-23/Componentify@main/componentify.css">' onCopy={handleCopyCDN}>
+                                        <CopyToClipboard text='<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Componentify-23/Componentify/componentify-23.css">' onCopy={handleCopyCDN}>
                                             <i className={`mr-2 ${copiedCDN ? "fa-solid fa-check fa-xl text-componentify" : "fa-regular fa-clipboard"} fa-xl text-fog`}></i>
                                         </CopyToClipboard>
                                     </div>

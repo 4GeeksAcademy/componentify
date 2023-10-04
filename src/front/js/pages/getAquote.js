@@ -47,6 +47,11 @@ export const GetAquote = () => {
     } catch (error) {
       console.error('Error al enviar el correo:', error);
     }
+    alert("Quotate sent. Thanks you.")
+    setName('')
+    setEmail('')
+    setMessage('')
+    
   };
 
   return (

@@ -304,19 +304,20 @@ useEffect(() => {
 
         {/* TODO: cambiar los fetchs */}
         <form className="d-flex justify-content-between align-items-center">
-          <div className="input-group mb-3 mx-3">
+          {/* <div className="input-group mb-3 mx-3">
             <input type="text" className="form-control" placeholder="ID" onChange={(e) => setSearchId(e.target.value)} />
             <button type="submit" className="btn btn-dark btn-sm" onClick={(e) => { e.preventDefault(); fetchComponent(search); }}>
               By ID
             </button>
-          </div>
+          </div> */}
 
-          <div className="input-group mb-3 ">
+          <div className="input-group mb-3 mx-3">
             <input type="text" className="form-control" placeholder="Name" onChange={(e) => setSearchName(e.target.value)} />
             <button type="submit" className="btn btn-dark btn-sm" onClick={(e) => { e.preventDefault(); fetchComponentsByName(searchName); }}>
               By Name
             </button>
           </div>
+
 
           <div className="input-group mb-3 mx-3">
             <input type="text" className="form-control" placeholder="Type" onChange={(e) => setSearchType(e.target.value)} />
