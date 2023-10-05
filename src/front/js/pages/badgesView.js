@@ -112,6 +112,7 @@ export const BadgesView = () => {
                    </div>
                     ))} 
 
+
                     {/* Acá termina el bello MAP y cerramos la row */}
 
 

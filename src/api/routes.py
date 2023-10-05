@@ -50,7 +50,7 @@ def preference():
             "email":"test_user_17805074@testuser.com" 
         },                                                                                          
         "back_urls": {
-            "success": "https://sample-service-name-j4oc.onrender.com/thankyou",
+            "success": "https://ubiquitous-spork-949qp54646rfp9rg-3000.app.github.dev/thankyou",
             "failure": "https://effective-rotary-phone-q7q7vxvwqq7gh974r-3000.app.github.dev",
             "pending": "https://effective-rotary-phone-q7q7vxvwqq7gh974r-3000.app.github.dev"
         },
